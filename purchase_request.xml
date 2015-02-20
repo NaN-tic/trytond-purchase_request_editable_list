@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of the purchase_request_editable_list module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="purchase_request_view_tree">
+            <field name="model">purchase.request</field>
+            <field name="inherit" ref="stock_supply.purchase_request_view_tree"/>
+            <field name="name">purchase_request_tree</field>
+        </record>
+    </data>
+</tryton>
