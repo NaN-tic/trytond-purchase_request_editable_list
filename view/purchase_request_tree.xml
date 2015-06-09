@@ -6,4 +6,8 @@ copyright notices and license terms. -->
     <xpath expr="/tree" position="replace_attributes">
         <tree string="Purchase Requests" editable="bottom"/>
     </xpath>
+
+    <xpath expr="/tree/field[@name='company']" position="before">
+        <field name="origin"/>
+    </xpath>
 </data>
