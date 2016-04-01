@@ -6,7 +6,7 @@ copyright notices and license terms. -->
     <data>
         <record model="ir.ui.view" id="purchase_request_view_tree">
             <field name="model">purchase.request</field>
-            <field name="inherit" ref="stock_supply.purchase_request_view_tree"/>
+            <field name="inherit" ref="purchase_request.purchase_request_view_tree"/>
             <field name="name">purchase_request_tree</field>
         </record>
     </data>
